@@ -48,7 +48,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Kingmoviebot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Linkshortx.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'e63c6f52fe1dd314070a42cfd22e5c8753c8bba8')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
@@ -112,9 +112,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://king-bot-vywn.onrender.com/".format(FQDN)
+    URL = "https://king-bot-g1dx.onrender.com/".format(FQDN)
 else:
-    URL = "https://king-bot-vywn.onrender.com/".format(FQDN)
+    URL = "https://king-bot-g1dx.onrender.com/".format(FQDN)
 
 
 
