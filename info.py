@@ -112,9 +112,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://king-bot-yqhn.onrender.com/".format(FQDN)
+    URL = "https://king-bot-7rfc.onrender.com/".format(FQDN)
 else:
-    URL = "https://king-bot-yqhn.onrender.com/".format(FQDN)
+    URL = "https://king-bot-7rfc.onrender.com/".format(FQDN)
 
 
 
