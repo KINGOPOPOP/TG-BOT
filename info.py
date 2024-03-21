@@ -112,9 +112,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://tg-bot-yupk.onrender.com/".format(FQDN)
+    URL = "https://tg-bot-ehhn.onrender.com/".format(FQDN)
 else:
-    URL = "https://tg-bot-yupk.onrender.com/".format(FQDN)
+    URL = "https://tg-bot-ehhn.onrender.com/".format(FQDN)
 
 
 
